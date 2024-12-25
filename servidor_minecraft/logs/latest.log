@@ -1,0 +1,96 @@
+[05:54:14] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at ahi.b(SourceFile:62) ~[server-1.20.1.jar:?]
+	at ahf.a(SourceFile:137) ~[server-1.20.1.jar:?]
+	at ahg.<init>(SourceFile:12) ~[server-1.20.1.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:115) ~[server-1.20.1.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:54:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:54:16] [ServerMain/INFO]: Loaded 7 recipes
+[05:54:16] [ServerMain/INFO]: Loaded 1271 advancements
+[05:54:16] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[05:54:16] [Server thread/INFO]: Loading properties
+[05:54:16] [Server thread/INFO]: Default game type: SURVIVAL
+[05:54:16] [Server thread/INFO]: Generating keypair
+[05:54:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:54:17] [Server thread/INFO]: Using epoll channel type
+[05:54:17] [Server thread/INFO]: Preparing level "world"
+[05:54:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:54:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:54:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:54:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:54:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:54:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:54:25] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[05:54:26] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[05:54:26] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[05:54:27] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[05:54:27] [Worker-Main-3/INFO]: Preparing spawn area: 4%
+[05:54:28] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[05:54:28] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[05:54:29] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[05:54:29] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[05:54:30] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[05:54:30] [Worker-Main-3/INFO]: Preparing spawn area: 12%
+[05:54:31] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[05:54:31] [Worker-Main-3/INFO]: Preparing spawn area: 16%
+[05:54:32] [Worker-Main-2/INFO]: Preparing spawn area: 17%
+[05:54:32] [Worker-Main-1/INFO]: Preparing spawn area: 19%
+[05:54:33] [Worker-Main-3/INFO]: Preparing spawn area: 21%
+[05:54:33] [Worker-Main-1/INFO]: Preparing spawn area: 23%
+[05:54:34] [Worker-Main-3/INFO]: Preparing spawn area: 25%
+[05:54:34] [Worker-Main-3/INFO]: Preparing spawn area: 28%
+[05:54:35] [Worker-Main-3/INFO]: Preparing spawn area: 30%
+[05:54:35] [Worker-Main-1/INFO]: Preparing spawn area: 32%
+[05:54:36] [Worker-Main-3/INFO]: Preparing spawn area: 34%
+[05:54:36] [Worker-Main-1/INFO]: Preparing spawn area: 36%
+[05:54:37] [Worker-Main-2/INFO]: Preparing spawn area: 37%
+[05:54:37] [Worker-Main-3/INFO]: Preparing spawn area: 41%
+[05:54:38] [Worker-Main-1/INFO]: Preparing spawn area: 43%
+[05:54:38] [Worker-Main-2/INFO]: Preparing spawn area: 46%
+[05:54:39] [Worker-Main-1/INFO]: Preparing spawn area: 48%
+[05:54:39] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[05:54:40] [Worker-Main-3/INFO]: Preparing spawn area: 54%
+[05:54:40] [Worker-Main-2/INFO]: Preparing spawn area: 56%
+[05:54:41] [Worker-Main-3/INFO]: Preparing spawn area: 58%
+[05:54:41] [Worker-Main-3/INFO]: Preparing spawn area: 60%
+[05:54:42] [Worker-Main-3/INFO]: Preparing spawn area: 63%
+[05:54:42] [Worker-Main-2/INFO]: Preparing spawn area: 67%
+[05:54:43] [Worker-Main-1/INFO]: Preparing spawn area: 70%
+[05:54:43] [Worker-Main-3/INFO]: Preparing spawn area: 72%
+[05:54:44] [Worker-Main-3/INFO]: Preparing spawn area: 77%
+[05:54:44] [Worker-Main-3/INFO]: Preparing spawn area: 81%
+[05:54:45] [Worker-Main-3/INFO]: Preparing spawn area: 84%
+[05:54:45] [Worker-Main-2/INFO]: Preparing spawn area: 87%
+[05:54:46] [Worker-Main-2/INFO]: Preparing spawn area: 89%
+[05:54:46] [Worker-Main-1/INFO]: Preparing spawn area: 93%
+[05:54:47] [Worker-Main-2/INFO]: Preparing spawn area: 95%
+[05:54:47] [Server thread/INFO]: Time elapsed: 24470 ms
+[05:54:47] [Server thread/INFO]: Done (30.555s)! For help, type "help"
+[05:54:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[05:54:47] [Server thread/INFO]: home/codespace/.python/current/bin/python3 /workspaces/salop/msx.py<--[HERE]
+[05:56:51] [User Authenticator #1/INFO]: UUID of player Brigsted__Swunt is 5652e767-0e22-4b01-962a-166e10cabe81
+[05:56:51] [Server thread/INFO]: Brigsted__Swunt[/127.147.124.81:57333] logged in with entity id 203 at (-41.5, 77.0, 56.5)
+[05:56:51] [Server thread/INFO]: Brigsted__Swunt joined the game
+[05:57:11] [Server thread/INFO]: Brigsted__Swunt lost connection: Disconnected
+[05:57:11] [Server thread/INFO]: Brigsted__Swunt left the game
+[05:57:24] [Server thread/INFO]: Stopping the server
+[05:57:24] [Server thread/INFO]: Stopping server
+[05:57:24] [Server thread/INFO]: Saving players
+[05:57:24] [Server thread/INFO]: Saving worlds
+[05:57:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:57:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:57:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:57:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:57:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:57:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:57:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
